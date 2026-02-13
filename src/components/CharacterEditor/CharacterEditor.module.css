@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+  /* position: relative; instead of isolation on controlPane */
 }
 
 .header {
@@ -26,10 +27,10 @@
 
 .characterWrapper {
   position: fixed; 
-  right: 64px;
+  right: 64px; /* left: 60% */
   top: 128px;
   min-height: 500px;
-  width: 30%;
+  width: 30%; /* bottom: 5% */
 }
 
 .controlColumn {
